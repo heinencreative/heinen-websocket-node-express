@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class ChatList extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
@@ -21,10 +18,6 @@ class ChatList extends Component {
       </div>
     );
   }
-}
-
-ChatList.defaultProps = {
-  messages: []
 }
 
 export default ChatList;
