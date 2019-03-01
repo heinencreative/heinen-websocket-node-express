@@ -1,0 +1,19 @@
+{
+  "name": "heinen-websocket-node-express",
+  "version": "1.0.0",
+  "description": "Simple websocket node server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "watch": "nodemon ./server.js"
+  },
+  "author": "Chris Heinen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
