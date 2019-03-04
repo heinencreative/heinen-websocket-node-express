@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.chatList {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+}

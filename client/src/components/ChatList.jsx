@@ -4,7 +4,7 @@ class ChatList extends Component {
 
   render() {
     return (
-      <div>
+      <div className='chatList'>
         { this.props.messages.length > 0
           ? this.props.messages.map((message, idx) => {
             return (
